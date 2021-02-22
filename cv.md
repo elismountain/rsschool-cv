@@ -17,14 +17,14 @@ Master of Economics
 PROFESSIONAL EXPERIENCE:
 ------------------------
 
-**FENWICK LTD London Bond Street**, 2017 - 2020
+**FENWICK LTD London Bond Street**, 2017 - 2020  
 Section Manager of the Eileen Fisher brand.  Sales, customer service, dealing with returns and complaints, managing staff rota, sickness cover, uniform, and holidays requests, stock takes, and merchandising. Build and increase customer loyalty, which results in reaching weekly and monthly sales targets.
 
-**ADVERIGO, Key Account Manager**, 2016 - 2017
+**ADVERIGO, Key Account Manager**, 2016 - 2017  
 Launched a new advertising tool for the digital Russian market, which involved presenting the tool to clients in Moscow and resulted in twelve purchases from companies that included Peugeot, Unilever, Samsung, Nokian Tyres, Continental, Skype, and LG.
 Accurately relayed the client requirements to the team of programmers, which resulted in a fast turnaround of the customized tool and a high level of client satisfaction. Prepared statistics to show clients the benefits of the tool in a concise and clear manner, which resulted in a near 100% of contract renewals.
 
-**ECHO OF MOSCOW RADIO, Russia**, 2012 - 2015
+**ECHO OF MOSCOW RADIO, Russia**, 2012 - 2015  
 Account Manager - implemented the monthly marketing sales plan by communicating with potential customers. Through strong communication and planning, produced advertisements for customers by working with copywriters, sound engineers, and journalists and resulted in positive feedback from customers. Use industry-standard radio station media-planning tool TNS Global Media.
 
 ADDITIONAL INFORMATION:
