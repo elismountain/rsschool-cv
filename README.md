@@ -4,4 +4,4 @@
 
 https://elismountain.github.io/rsschool-cv/
 
-[Link to open the CV on the webpage](https://github.com/elismountain/rsschool-cv/blob/main/cv.md))
+[Link to open the CV on the webpage](https://github.com/elismountain/rsschool-cv/blob/main/cv.md)
