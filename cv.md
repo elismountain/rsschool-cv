@@ -11,7 +11,7 @@ Since the beginning of the COVID pandemic, I decided to rethink my career path, 
 **British Language Centre**, London United Kingdom, September 2015 - 2016			            
  Level of English - C2  proficient.
 
-**Saint-Petersburg State University of Economics(FINEK)**,  2007 - 2012
+**Saint-Petersburg State University of Economics(FINEK)**,  2007 - 2012  
 Master of Economics   
 
 PROFESSIONAL EXPERIENCE:
