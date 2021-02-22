@@ -6,7 +6,7 @@
 EDUCATION:
 ----------
 **HTML Academy** (HTML, CSS , Javascript, React, Git), 2020 - until now       
-Since the beginning of the COVID pandemic, I decided to rethink my career path, as long as I've been always interested in the tech industry, I decided to try myself as a web developer. Within the last year, I've been learning how to use Git, work with Commander, learned the basics of HTML, CSS, Javascript, and React. So far I have built a few simple websites and one page applications. Pleasem feel free to find my projects by username  *elismountain* on [GitHub](https://github.com/elismountain))
+Since the beginning of the COVID pandemic, I decided to rethink my career path, as long as I've been always interested in the tech industry, I decided to try myself as a web developer. Within the last year, I've been learning how to use Git, work with Commander, learned the basics of HTML, CSS, Javascript, and React. So far I have built a few simple websites and one page applications. Please, feel free to find my projects by username  *elismountain* on [GitHub](https://github.com/elismountain))
 
 **British Language Centre**, London United Kingdom, September 2015 - 2016			            
  Level of English - C2  proficient.
@@ -30,6 +30,7 @@ Account Manager - implemented the monthly marketing sales plan by communicating 
 ADDITIONAL INFORMATION:
 ----------------------
 **IT Skills**: Databases, Microsoft Office, TNS Global Media, HTML, CSS, JavaScript, React library, Git, Cmder, Figma
-**Languages**: English, Russian
-**Permission to work**:  UK Residence, Russia residents
+**Languages**: English fluent, Russian native
+**Permission to work**:  UK Residence, Russian residents
 **Driving License**: Category B
+**Motivation and personality**:  I grew up in a tiny remote village in Russian Karelia. Thanks to love of maths and books reading, I managed to go to the University, I had always been dreaming about and after the graduation get the job at the Radio station that I loved and respected very much at that time. After few years of work in Saint-Petersburg and Moscow, I decided to try myself abroad and me and my family relocated to London UK. I always been a big dreamer and a fighter, I sincerely hope that these qualities will help me to master programming as well.
