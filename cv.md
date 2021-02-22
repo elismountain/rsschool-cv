@@ -29,8 +29,8 @@ Account Manager - implemented the monthly marketing sales plan by communicating 
 
 ADDITIONAL INFORMATION:
 ----------------------
-**IT Skills**: Databases, Microsoft Office, TNS Global Media, HTML, CSS, JavaScript, React library, Git, Cmder, Figma.
-**Languages**: English fluent, Russian native.
-**Permission to work**:  UK Residence, Russian residents.
-**Driving License**: Category B.
+**IT Skills**: Databases, Microsoft Office, TNS Global Media, HTML, CSS, JavaScript, React library, Git, Cmder, Figma.  
+**Languages**: English fluent, Russian native.  
+**Permission to work**:  UK Residence, Russian residents.  
+**Driving License**: Category B.  
 **Motivation and personality**:  I grew up in a tiny remote village in Russian Karelia. Thanks to love of maths and books reading, I managed to go to the University, I had always been dreaming about and after the graduation get the job at the Radio station that I loved and respected very much at that time. After few years of work in Saint-Petersburg and Moscow, I decided to try myself abroad and me and my family relocated to London UK. I always been a big dreamer and a fighter, I sincerely hope that these qualities will help me to master programming as well.
