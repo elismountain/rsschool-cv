@@ -6,7 +6,7 @@
 EDUCATION:
 ----------
 **HTML Academy** (HTML, CSS , Javascript, React, Git), 2020 - until now       
-Since the beginning of the COVID pandemic, I decided to rethink my career path, as long as I've been always interested in the tech industry, I decided to try myself as a web developer. Within the last year, I've been learning how to use Git, work with Commander, learned the basics of HTML, CSS, Javascript, and React. So far I have built a few simple websites and one page applications. Please, feel free to find my projects by username  *elismountain* on [GitHub](https://github.com/elismountain))
+Since the beginning of the COVID pandemic, I decided to rethink my career path, as long as I've been always interested in the tech industry and after some research, I decided to try myself as a web developer. Within the last year, I've been learning how to use Git, work with Commander, learned the basics of HTML, CSS, Javascript, and React. So far I have built a few simple websites and one page applications. Please, feel free to find my projects by username  *elismountain* on [GitHub](https://github.com/elismountain))
 
 **British Language Centre**, London United Kingdom, September 2015 - 2016			            
  Level of English - C2  proficient.
