@@ -6,16 +6,19 @@
   <title>CV - Olga Avramenko </title>
   <meta name="description" content="CV example created with HTML and CSS">
   <meta name="author" content="elismountain">
-  <link rel="stylesheet" href="style.css">
+  <link rel="preload" href="fonts\Quicksand-Medium.ttf" as="font">
+  <link rel="preload" href="fonts\Quicksand-Regular.ttf" as="font">
+  <link rel="stylesheet" href="index.css">
 </head>
-
-<body>
-  <header>
-    <div>
-      <img class="header__logo" src="#" alt="cv cover photo" width="40" height="40" />
+<body class="page-body">
+  <header class="header">
+    <div class="header-logo">
+      <img class="header-logo__img" src="img/photo.jpg" width="180" height="180" alt="cv photo">
     </div>
-    <h1 class="header__name">Olga Avramenko</h1>
-    <p class="header__intro"> Intro </p>
+    <div class="header__name-wrapper">
+      <h1 class="header__name">Olga Avramenko</h1>
+      <div class="header__about-me"> Junior Web Developer </div>
+    </div>
     <section class="contacts">
       <ul class="header__media-list">
         <li class="header__madia-item">
@@ -24,8 +27,8 @@
           </a>
         </li>
         <li class="header__madia-item">
-          <a class="header__media-button button" href="https://rs.school/" aria-label="RSSchool">
-            <span class="iconify" data-icon="simple-icons:rsschool" data-inline="false"></span>
+          <a class="header__media-button button" href="https://www.instagram.com/elismountain/" aria-label="Instagram">
+            <span class="iconify" data-icon="akar-icons:instagram-fill" data-inline="false"></span>
           </a>
         </li>
         <li class="header__madia-item">
@@ -42,16 +45,20 @@
       <h2> EDUCATION: </h2>
       <ul>
         <li class="company__name">
-          <h2 class="company__title">HTML Academy</h2>
-          <h3 class="company__additional">(HTML, CSS , Javascript, React, Git), 2020 - until now </h3>
+          <div class="company__name-wrapper">
+            <h2 class="company__title">HTML Academy</h2>
+            <h3 class="company__additional">(HTML, CSS , Javascript, React, Git), 2020 - until now </h3>
+          </div>
           <h3 class="company__description">
             Since the beginning of the COVID pandemic, I decided to rethink my career path, as long as I've been always interested in the tech industry and after some research, I decided to try myself as a web developer. Within the last year, I've
             been learning how to use Git, work with Commander, learned the basics of HTML, CSS, Javascript, and React. So far I have built a few simple websites and one page applications.
           </h3>
         </li>
         <li class="company__name">
-          <h2 class="company__title">Saint-Petersburg State University of Economics(FINEK)</h2>
-          <h3 class="company__additional">2007 - 2012 </h3>
+          <div class="company__name-wrapper">
+            <h2 class="company__title">Saint-Petersburg State University of Economics(FINEK)</h2>
+            <h3 class="company__additional">2007 - 2012 </h3>
+          </div>
           <h3 class="company__description">
             Master of Economics
           </h3>
@@ -63,16 +70,20 @@
       <h2> PROFESSIONAL EXPERIENCE: </h2>
       <ul>
         <li class="company__name">
-          <h2 class="company__title">FENWICK LTD London Bond Street</h2>
-          <h3 class="company__additional">2017 - 2020</h3>
+          <div class="company__name-wrapper">
+            <h2 class="company__title">FENWICK LTD London Bond Street</h2>
+            <h3 class="company__additional">2017 - 2020</h3>
+          </div>
           <h3 class="company__description">
             Section Manager of the Eileen Fisher brand. Sales, customer service, dealing with returns and complaints, managing staff rota, sickness cover, uniform, and holidays requests, stock takes, and merchandising. Build and increase customer
             loyalty, which results in reaching weekly and monthly sales targets.
           </h3>
         </li>
         <li class="company__name">
-          <h2 class="company__title"> ADVERIGO, Key Account Manager </h2>
-          <h3 class="company__additional">2016 - 2017</h3>
+          <div class="company__name-wrapper">
+            <h2 class="company__title"> ADVERIGO, Key Account Manager </h2>
+            <h3 class="company__additional">2016 - 2017</h3>
+          </div>
           <h3 class="company__description">
             Launched a new advertising tool for the digital Russian market, which involved presenting the tool to clients in Moscow and resulted in twelve purchases from companies that included Peugeot, Unilever, Samsung, Nokian Tyres, Continental,
             Skype, and LG.
@@ -81,8 +92,10 @@
           </h3>
         </li>
         <li class="company__name">
-          <h2 class="company__title"> ECHO OF MOSCOW RADIO, Russia </h2>
-          <h3 class="company__additional">2012 - 2015</h3>
+          <div class="company__name-wrapper">
+            <h2 class="company__title"> ECHO OF MOSCOW RADIO, Russia </h2>
+            <h3 class="company__additional">2012 - 2015</h3>
+          </div>
           <h3 class="company__description">
             Account Manager - implemented the monthly marketing sales plan by communicating with potential customers. Through strong communication and planning, produced advertisements for customers by working with copywriters, sound engineers, and
             journalists and resulted in positive feedback from customers. Use industry-standard radio station media-planning tool TNS Global Media.
