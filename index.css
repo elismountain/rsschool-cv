@@ -168,10 +168,22 @@
   padding: 8px 6px;
   font-size: .875em;
   text-align: left;
-  width: 160px;
+  width:160px;
   right: 100%;
   left: auto;
   top: -4px;
+}
+
+.company__additional::before {
+  content: "";
+  box-sizing: border-box;
+  background-color: #c0e3e7;
+  width: 140px;
+  position: absolute;
+  border-top: 11px solid transparent;
+  border-bottom: 11px solid transparent;
+  border-left: 0 solid transparent;
+  border-right: 7px solid transparent;
 }
 
 .company__html-wrapper {
