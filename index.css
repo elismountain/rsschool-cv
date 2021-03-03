@@ -7,6 +7,7 @@
   font-size: 16px;
   line-height: 24px;
   letter-spacing: .08em;
+  background-color: #DCDCDC;
 }
 
 .visually-hidden {
@@ -26,11 +27,13 @@
 .header {
   text-align: center;
   background-color: #c0e3e7;
-  padding: 20px 20px 20px 20px;
+  padding: 20px 20px 0px 20px;
+  margin: 20px 20px 20px 20px;
   color: #ffffff;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+  box-shadow: 0 0 3px rgba(0,0,0,0.3);
   grid-template-areas:
     "header-logo header__name-wrapper"
     "header-logo contacts"
@@ -97,6 +100,263 @@
   grid-template-columns: 3fr 2fr;
 }
 
+
+.main__section {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px 20px 0px 20px;
+  margin: 20px 20px 20px 20px;
+  color: #000;
+  box-shadow: 0 0 3px rgba(0,0,0,0.3);
+}
+
+.main__title {
+  margin-left: 40px ;
+  padding: 8px 6px;
+  font-size: .875em;
+  text-align: left;
+  right: 100%;
+  left: auto;
+  top: -4px;
+}
+
+.company__list {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+  "company__name-html"
+  "company__name-finek"
+}
+
+.company__description{
+  margin-left: 0;
+  margin-right: 22px;
+  padding: 8px 6px;
+  font-size: .90em;
+  text-align: left;
+  max-width: 700px;
+  right: 100%;
+  left: auto;
+  top: -4px;
+}
+
+.company__name-html {
+  grid-area: company__name-html;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+  "company__additional-html company__html-wrapper"
+}
+
+.company__name-finek {
+  grid-area: company__name-finek;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+  "company__additional-finek company__finek-wrapper"
+}
+
+
 .company__additional {
+  margin-left: 0;
+  margin-right: 22px;
+  padding: 8px 6px;
+  font-size: .875em;
+  text-align: left;
+  width: 160px;
+  right: 100%;
+  left: auto;
+  top: -4px;
+}
+
+.company__html-wrapper {
+  grid-area: company__html-wrapper;
+}
+
+.company__finek-wrapper {
+  grid-area: company__finek-wrapper;
+}
+
+.page-footer {
   text-align: right;
+  background-color: #c0e3e7;
+  padding: 20px 20px 0px 20px;
+  margin: 20px 20px 20px 20px;
+  color: #ffffff;
+  box-shadow: 0 0 3px rgba(0,0,0,0.3);
+}
+
+
+.company__work {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+  "company__name-fenwick"
+  "company__name-adverigo"
+  "company__name-echo"
+}
+
+.company__name-fenwick {
+  grid-area: company__name-fenwick;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+  "company__additional-fenwick company__fenwick-wrapper"
+}
+
+.company__name-adverigo {
+  grid-area: company__name-adverigo;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+  "company__additional-adverigo company__adverigo-wrapper"
+}
+
+.company__name-echo {
+  grid-area: company__name-echo;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+  "company__additional-echo company__echo-wrapper"
+}
+
+.skills__list {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+  "it-skills"
+  "languages"
+  "residents"
+  "license"
+}
+
+.it-skills{
+  grid-area: it-skills;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+  "skills__title-it skills__additional-it"
+}
+
+.languages {
+  grid-area: languages;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+  "skills__title-languages skills__additional-languages"
+}
+
+.residents{
+  grid-area: residents;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+  "skills__title-residents skills__additional-residents"
+}
+
+.license {
+  grid-area: license;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+  "skills__title-license skills__additional-license"
+}
+
+.skills__title {
+  margin-left: 0;
+  margin-right: 22px;
+  padding: 5px 6px;
+  font-size: .875em;
+  text-align: left;
+  width: 160px;
+  right: 100%;
+  left: auto;
+  top: -4px;
+}
+
+.skills__additional-it {
+  grid-area: skills__additional-it;
+  margin-left: 0;
+  margin-right: 22px;
+  padding: 8px 6px;
+  font-size: .90em;
+  text-align: left;
+  max-width: 700px;
+  right: 100%;
+  left: auto;
+  top: -4px;
+}
+
+.skills__additional-languages {
+  grid-area: skills__additional-languages;
+  margin-left: 0;
+  margin-right: 22px;
+  padding: 8px 6px;
+  font-size: .90em;
+  text-align: left;
+  max-width: 700px;
+  right: 100%;
+  left: auto;
+  top: -4px;
+}
+
+.skills__additional-residents {
+  grid-area: skills__additional-residents;
+  margin-left: 0;
+  margin-right: 22px;
+  padding: 8px 6px;
+  font-size: .90em;
+  text-align: left;
+  max-width: 700px;
+  right: 100%;
+  left: auto;
+  top: -4px;
+}
+
+.skills__additional-license {
+  grid-area: skills__additional-license;
+  margin-left: 0;
+  margin-right: 22px;
+  padding: 8px 6px;
+  font-size: .90em;
+  text-align: left;
+  max-width: 700px;
+  right: 100%;
+  left: auto;
+  top: -4px;
+}
+
+.company__title {
+  margin-left: 0;
+  margin-right: 22px;
+  padding: 8px 6px;
+  font-size: .90em;
+  text-align: left;
+  max-width: 700px;
+  right: 100%;
+  left: auto;
+  top: -4px;
 }
