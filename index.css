@@ -31,7 +31,7 @@
   margin: 20px 20px 20px 20px;
   color: #ffffff;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 3fr;
   grid-template-rows: 1fr 1fr;
   box-shadow: 0 0 3px rgba(0,0,0,0.3);
   grid-template-areas:
@@ -41,6 +41,7 @@
 
 .contacts {
   grid-area: contacts;
+  padding-left: 50px;
 }
 
 .header__media-list {
@@ -52,10 +53,12 @@
 
 .header__about-me {
   font-size: 1.143em;
+  padding-left: 50px;
 }
 
 .header__name {
   line-height: 30px;
+  padding-left: 50px;
 }
 
 .header__madia-item {
@@ -122,14 +125,17 @@
 
 .company__list {
   display: grid;
+  margin: 0 auto;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 500px auto / 1fr 1fr;
+  grid-auto-rows: minmax(min-content, max-content);
   grid-template-areas:
   "company__name-html"
   "company__name-finek"
 }
 
 .company__description{
+  display: grid;
   margin-left: 0;
   margin-right: 22px;
   padding: 8px 6px;
@@ -178,12 +184,18 @@
   content: "";
   box-sizing: border-box;
   background-color: #c0e3e7;
-  width: 140px;
+  width: 120px;
   position: absolute;
   border-top: 11px solid transparent;
   border-bottom: 11px solid transparent;
   border-left: 0 solid transparent;
   border-right: 7px solid transparent;
+}
+
+.company__additional-year {
+  position: absolute;
+  font-size: .875em;
+  padding-left: 20px;
 }
 
 .company__html-wrapper {
@@ -194,21 +206,41 @@
   grid-area: company__finek-wrapper;
 }
 
-.page-footer {
+.page__footer {
   text-align: right;
   background-color: #c0e3e7;
-  padding: 20px 20px 0px 20px;
+  padding: 20px 20px 20px 20px;
   margin: 20px 20px 20px 20px;
-  color: #ffffff;
   box-shadow: 0 0 3px rgba(0,0,0,0.3);
+}
+
+.footer__name {
+  color: #fff;
+  font-size: 1.143em;
+  font-family: "Quicksand", sans-serif;
+  line-height: 24px;
+  letter-spacing: .08em;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: #000;
+}
+
+.footer__link:hover {
+  color: #000;
+  opacity: 0.5;
 }
 
 
 .company__work {
   list-style-type: none;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr;
+  grid-auto-rows: minmax(min-content, max-content);
+  grid-gap: 0px;
   grid-template-areas:
   "company__name-fenwick"
   "company__name-adverigo"
@@ -220,7 +252,7 @@
   list-style-type: none;
   display: grid;
   grid-template-columns: 1fr 3fr;
-  grid-template-rows: 1fr;
+  grid-template-rows:  1fr;
   grid-template-areas:
   "company__additional-fenwick company__fenwick-wrapper"
 }
@@ -250,6 +282,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-auto-rows: minmax(min-content, max-content);
   grid-template-areas:
   "it-skills"
   "languages"
@@ -300,6 +333,8 @@
 .skills__title {
   margin-left: 0;
   margin-right: 22px;
+  margin-top: 0;
+  margin-bottom: 0;
   padding: 5px 6px;
   font-size: .875em;
   text-align: left;
@@ -313,6 +348,8 @@
   grid-area: skills__additional-it;
   margin-left: 0;
   margin-right: 22px;
+  margin-top: 0;
+  margin-bottom: 0;
   padding: 8px 6px;
   font-size: .90em;
   text-align: left;
@@ -326,6 +363,8 @@
   grid-area: skills__additional-languages;
   margin-left: 0;
   margin-right: 22px;
+  margin-top: 0;
+  margin-bottom: 0;
   padding: 8px 6px;
   font-size: .90em;
   text-align: left;
@@ -339,6 +378,8 @@
   grid-area: skills__additional-residents;
   margin-left: 0;
   margin-right: 22px;
+  margin-top: 0;
+  margin-bottom: 0;
   padding: 8px 6px;
   font-size: .90em;
   text-align: left;
@@ -352,6 +393,8 @@
   grid-area: skills__additional-license;
   margin-left: 0;
   margin-right: 22px;
+  margin-top: 0;
+  margin-bottom: 0;
   padding: 8px 6px;
   font-size: .90em;
   text-align: left;
@@ -364,6 +407,8 @@
 .company__title {
   margin-left: 0;
   margin-right: 22px;
+  margin-top: 0;
+  margin-bottom: 0;
   padding: 8px 6px;
   font-size: .90em;
   text-align: left;
