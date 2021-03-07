@@ -9,34 +9,32 @@
 
 <body>
   <header>
+    <div class="main-navigation__logo">
+      <a class="navigation__logo">
+        <img src="assets/horns.png" width="70" height="60" alt="Логотип сайта Wildlife">
+      </a>
+    </div>
     <nav class="main-navigation">
-      <div class="main-navigation__logo">
-        <a class="navigation__logo">
-          <img src="assets/horns.png" width="70" height="60" alt="Логотип сайта Wildlife">
-        </a>
-      </div>
+      <ul>
 
-
-      <ul class="main-navigation__list">
         <li class="main-navigation__blog">
           <a href="#"> Blog</a>
         </li>
+
         <li class="main-navigation__contacts">
           <a href="#"> Contacts </a>
         </li>
-      </ul>
 
-      <ul class="user-navigation">
-        <li class="user-navigation__search">
+        <li class="main-navigation__search">
           <a href="#">
             <span class="visually-hidden">Поиск по сайту</span>
           </a>
         </li>
 
-        <li class="user-navigation__sign">
+        <li class="main-navigation__sign">
           <a href="#">
             <button class="user-navigation__button" id="button" type="button" aria-label="Sign-in">
-              <span class="visually-hidden"> Открыть меню </span>
+              <span> Sign in </span>
             </button>
           </a>
         </li>
@@ -44,15 +42,85 @@
     </nav>
   </header>
 
-  <main>
-    <section> </section>
-    <section> </section>
-    <section> </section>
+  <main class="main-page">
+    <h1 class="visually-hidden"> Website about Wildlife </h1>
+    <section class="servival">
+      <h2 class="servival-title"> Servival </h2>
+      <article class="servival-article"> What this means is that we exist to help protect our environment and do in numbers of ways. You can save the planet by donation. </article>
+      <button class="donate-button" type="button" name="button" aria-label="donate">
+        <span> Donate </span>
+      </button>
+    </section>
 
+    <section class="articles">
+      <h2> Latest articles </h2>
+      <h3> Breaking news from the wild </h3>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </section>
+
+    <section class="notification">
+      <h2>Get notified about new amazing articles</h2>
+      <form class="form">
+        <p class="form-field">
+          <label for="email"> Email </label>
+          <input name="email" id="email" type="text" placeholder="email">
+        </p>
+      </form>
+    </section>
   </main>
 
-  <footer> </footer>
+  <footer class="main-footer">
+    <div class="main-navigation__logo">
+      <a class="navigation__logo">
+        <img src="assets/horns.png" width="70" height="60" alt="Логотип сайта Wildlife">
+      </a>
+    </div>
 
+    <nav class="footer-navigation">
+      <ul>
+        <li class="footer-navigation__articles">
+          <a href="#"> Articles </a>
+        </li>
+
+        <li class="footer-navigation__about">
+          <a href="#"> About us </a>
+        </li>
+
+        <li class="footer-navigation__learn">
+          <a href="#"> Learn more </a>
+        </li>
+      </ul>
+    </nav>
+
+    <ul class="media">
+      <li class="media-link media-link__facebook">
+        <a class="social-links__link social-links" href="#" aria-label="Facebook">
+          <svg class="social-links__image" width="40" height="40"> </svg>
+        </a>
+      </li>
+
+      <li class=" media-link media-link__instagram">
+        <a class="social-links__link social-links" href="#" aria-label="Instagram">
+          <svg class="social-links__image" width="40" height="40"> </svg>
+        </a>
+      </li>
+
+      <li class="media-link media-link__pinterest">
+        <a class="social-links__link social-links" href="#" aria-label="Pinterest">
+          <svg class="social-links__image" width="40" height="40"> </svg>
+        </a>
+      </li>
+
+      <li class="media-link media-link__telegram">
+        <a class="social-links__link social-links" href="#" aria-label="Telegram">
+          <svg class="social-links__image" width="40" height="40"> </svg>
+        </a>
+      </li>
+    </ul>
+  </footer>
 </body>
-
 </html>
