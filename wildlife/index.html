@@ -7,120 +7,154 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-  <header>
-    <div class="main-navigation__logo">
-      <a class="navigation__logo">
-        <img src="assets/horns.png" width="70" height="60" alt="Логотип сайта Wildlife">
-      </a>
-    </div>
-    <nav class="main-navigation">
-      <ul>
-
-        <li class="main-navigation__blog">
-          <a href="#"> Blog</a>
-        </li>
-
-        <li class="main-navigation__contacts">
-          <a href="#"> Contacts </a>
-        </li>
-
-        <li class="main-navigation__search">
-          <a href="#">
-            <span class="visually-hidden">Поиск по сайту</span>
+<body class="page-body">
+  <div class="content-wrapper">
+    <header class="main-header">
+      <nav class="navigation">
+        <div class="main-navigation__logo">
+          <a class="main__header-logo">
+            <img src="assets/horns.png" width="70" height="60" alt="Логотип сайта Wildlife">
           </a>
-        </li>
+          <span class="logo-moto"> WILDLIFE </span>
+        </div>
 
-        <li class="main-navigation__sign">
-          <a href="#">
+        <ul class="site-navigation">
+          <li class="site-navigation__blog"> <a href="#"> Blog</a> </li>
+          <li class="site-navigation__contacts"> <a href="#"> Contacts </a></li>
+          <li class="site-navigation__search">
+            <div class="site-navigation__serach--button">
+              <form action="#">
+                <img class="search-image" src="assets/search.png" alt="Поиск">
+                <input class="input" type="text">
+              </form>
+            </div>
+          </li>
+
+          <li class="site-navigation__sign">
             <button class="user-navigation__button" id="button" type="button" aria-label="Sign-in">
               <span> Sign in </span>
             </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main-page">
+
+      <h1 class="visually-hidden"> Website about Wildlife </h1>
+      <section class="servival">
+        <div class="image">
+          <img class="fox" src="assets/fox.jpg" width="1440" height="779" alt="Фото лисы">
+        </div>
+        <h2 class="servival-title"> Servival </h2>
+        <article class="servival-article"> What this means is that we exist <br> to help protect our environment <br> and do in numbers of ways. You <br> can save the planet by donation. </article>
+        <button class="donate-button" type="button" name="button" aria-label="donate">
+          <span> Donate </span>
+        </button>
+      </section>
+
+      <section class="articles">
+        <h2 class="articles-title"> Latest articles </h2>
+        <h3 class="article-content"> Breaking news from the wild </h3>
+        <ul class="gallery">
+          <li class="arrow-left">
+            <img src="assets/back.png" width="30" height="70" alt="Кновка вправо">
+          </li>
+          <li>
+            <img src="assets/deer.jpg" width="300" height="360" alt="Фотография лося">
+            <div class="animal-title">
+              <span> Deer </span>
+              <span class="animal-description animal-description--deer"> Naturalist investigation </span>
+            </div>
+          </li>
+          <li>
+            <img src="assets/squirel.jpg" width="300" height="360" alt="Фотография белки">
+            <div class="animal-title">
+              <span> Squirrel </span>
+              <span class="animal-description animal-description--sq"> Kamikaze squirrels </span>
+            </div>
+          </li>
+          <li>
+            <img src="assets/bird.jpg" width="300" height="360" alt="Фотография птицы">
+            <div class="animal-title">
+              <span> Bird </span>
+              <span class="animal-description animal-description--bird"> Birds Fight club </span>
+            </div>
+
+          </li>
+          <li class="arrow-rigth">
+            <img src="assets/next.png" width="30" height="70" alt="Кновка влево">
+          </li>
+        </ul>
+      </section>
+
+      <section class="notification">
+        <h2 class="notification-text">Get notified about new amazing articles</h2>
+        <form class="notification-form">
+          <p class="form-field">
+            <input name="email" id="email" type="text" placeholder="email">
+            <button for="email"> Send </button>
+          </p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="main-footer">
+      <div class="image-footer">
+        <img class="fox" src="assets/leaf.jpg" width="1440" height="360" alt="Декоративный фон">
+        <span class="logo-moto"> WILDLIFE </span>
+      </div>
+
+      <div class="main-footer__logo">
+        <a class="main-footer__logo--img">
+          <img src="assets/horns.png" width="70" height="60" alt="Логотип сайта Wildlife">
+        </a>
+      </div>
+
+      <nav class="footer-navigation">
+
+        <ul>
+          <li class="footer-navigation__articles">
+            <a href="#"> Articles </a>
+          </li>
+
+          <li class="footer-navigation__about">
+            <a href="#"> About us </a>
+          </li>
+
+          <li class="footer-navigation__learn">
+            <a href="#"> Learn more </a>
+          </li>
+        </ul>
+      </nav>
+
+      <ul class="media">
+        <li class="media-link media-link__facebook">
+          <a class="social-links__link social-links" href="#" aria-label="Facebook">
+            <svg class="social-links__image" width="40" height="40"> </svg>
+          </a>
+        </li>
+
+        <li class=" media-link media-link__instagram">
+          <a class="social-links__link social-links" href="#" aria-label="Instagram">
+            <svg class="social-links__image" width="40" height="40"> </svg>
+          </a>
+        </li>
+
+        <li class="media-link media-link__pinterest">
+          <a class="social-links__link social-links" href="#" aria-label="Pinterest">
+            <svg class="social-links__image" width="40" height="40"> </svg>
+          </a>
+        </li>
+
+        <li class="media-link media-link__telegram">
+          <a class="social-links__link social-links" href="#" aria-label="Telegram">
+            <svg class="social-links__image" width="40" height="40"> </svg>
           </a>
         </li>
       </ul>
-    </nav>
-  </header>
-
-  <main class="main-page">
-    <h1 class="visually-hidden"> Website about Wildlife </h1>
-    <section class="servival">
-      <h2 class="servival-title"> Servival </h2>
-      <article class="servival-article"> What this means is that we exist to help protect our environment and do in numbers of ways. You can save the planet by donation. </article>
-      <button class="donate-button" type="button" name="button" aria-label="donate">
-        <span> Donate </span>
-      </button>
-    </section>
-
-    <section class="articles">
-      <h2> Latest articles </h2>
-      <h3> Breaking news from the wild </h3>
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </section>
-
-    <section class="notification">
-      <h2>Get notified about new amazing articles</h2>
-      <form class="form">
-        <p class="form-field">
-          <label for="email"> Email </label>
-          <input name="email" id="email" type="text" placeholder="email">
-        </p>
-      </form>
-    </section>
-  </main>
-
-  <footer class="main-footer">
-    <div class="main-navigation__logo">
-      <a class="navigation__logo">
-        <img src="assets/horns.png" width="70" height="60" alt="Логотип сайта Wildlife">
-      </a>
-    </div>
-
-    <nav class="footer-navigation">
-      <ul>
-        <li class="footer-navigation__articles">
-          <a href="#"> Articles </a>
-        </li>
-
-        <li class="footer-navigation__about">
-          <a href="#"> About us </a>
-        </li>
-
-        <li class="footer-navigation__learn">
-          <a href="#"> Learn more </a>
-        </li>
-      </ul>
-    </nav>
-
-    <ul class="media">
-      <li class="media-link media-link__facebook">
-        <a class="social-links__link social-links" href="#" aria-label="Facebook">
-          <svg class="social-links__image" width="40" height="40"> </svg>
-        </a>
-      </li>
-
-      <li class=" media-link media-link__instagram">
-        <a class="social-links__link social-links" href="#" aria-label="Instagram">
-          <svg class="social-links__image" width="40" height="40"> </svg>
-        </a>
-      </li>
-
-      <li class="media-link media-link__pinterest">
-        <a class="social-links__link social-links" href="#" aria-label="Pinterest">
-          <svg class="social-links__image" width="40" height="40"> </svg>
-        </a>
-      </li>
-
-      <li class="media-link media-link__telegram">
-        <a class="social-links__link social-links" href="#" aria-label="Telegram">
-          <svg class="social-links__image" width="40" height="40"> </svg>
-        </a>
-      </li>
-    </ul>
-  </footer>
+    </footer>
+  </div>
 </body>
+
 </html>
