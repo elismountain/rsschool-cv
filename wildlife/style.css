@@ -480,6 +480,12 @@ body {
   font-family: "Open Sans", "Arial", sans-serif;
 }
 
+
+.footer-navigation__link a:hover {
+  text-decoration: none;
+  color: #333;
+}
+
 .media {
   font-size: 14px;
   font-weight: bold;
@@ -495,6 +501,10 @@ body {
   padding-top: 40px;
 }
 
-.media-link {
+.social-links-icon {
+  fill: #F7F7F7;
+}
 
+.social-links-icon:hover {
+  fill: #666;
 }
